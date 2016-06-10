@@ -3,7 +3,9 @@ package com.redhat.hackathon;
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
+import org.apache.camel.cdi.ContextName;
 
+@ContextName("myJettyCamel")
 public class MyJettyRoute extends RouteBuilder {
 
     private static final String HOST = "0.0.0.0";
