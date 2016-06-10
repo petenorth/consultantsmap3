@@ -74,6 +74,17 @@
    <artifactId>camel-servlet</artifactId>
 </dependency>
 
+        <!-- spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        
+                <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-spring</artifactId>
+        </dependency>
+
     <!-- cdi api -->
     <dependency>
       <groupId>javax.enterprise</groupId>
